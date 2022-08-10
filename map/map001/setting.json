@@ -1,0 +1,80 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/e255296e-63ad-4c9f-8179-9d126cbe3890",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8750049205139816449",
+        "name": "Enemy",
+        "needSync": "true",
+        "position": "x:-20.386001586914 y:1.0025777816772 z:0.15399999916553",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/eecf0959-5d49-42ec-93d1-a12d29317c50",
+        "id": "8751175482179715073",
+        "name": "Finish",
+        "needSync": "true",
+        "position": "x:-25.020809173584 y:1.2650008201599 z:-0.023325979709625",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3.97987 y:2.55293 z:5.94882",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/f4e23865-596d-4185-bc6f-dd7c555469af",
+        "id": "8751179452514795521",
+        "name": "respawn",
+        "needSync": "true",
+        "position": "x:-10.407564163208 y:-2.476044178009 z:-1.2954149246216",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:33.7958 y:2.48182 z:18.1745",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

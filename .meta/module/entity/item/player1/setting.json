@@ -1,0 +1,136 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "damage": 20,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "hpBarColor": {
+      "b": 90,
+      "g": 255,
+      "r": 115
+    },
+    "isPlayer": true,
+    "maxHp": 100,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "7fcfa8f0-f361-46b8-ae2e-5713f3feb9db",
+                        "rawval": {
+                          "pos": {
+                            "x": -1,
+                            "y": 2,
+                            "z": -1
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1a9f7ce4-3611-4b93-af87-a6de70f04cb4"
+              },
+              "pos": {
+                "x": 664,
+                "y": 377
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRebirthPos",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7fcfa8f0-f361-46b8-ae2e-5713f3feb9db"
+              },
+              "pos": {
+                "x": 1158,
+                "y": 509
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0984fd97-8057-4bd3-96b5-13daa0a8d7bc"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1a9f7ce4-3611-4b93-af87-a6de70f04cb4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7f71750d-411a-4159-b467-d7fc1373a8f7"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a075baa5d9b155fe00855434a4d143ce",
+      "triggers.bts": "248434b444bf8a4fa5859218a8b78ff9"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_6dd7dd8f-8634-41a5-a6eb-0a8cf94260f9"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardCoin",
+          "count": 100
+        },
+        "type": "Coin"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d92f758d786ab582b60bdb4513c8189f"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,4 @@
+REGION_ENTER {
+	GameOverToPlayer(entity = $obj1)
+	RewardMechanism(entity = $obj1, path = "")
+}

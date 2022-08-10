@@ -1,0 +1,77 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e255296e-63ad-4c9f-8179-9d126cbe3890",
+        "id": "8750049205139816449",
+        "name": "Enemy",
+        "position": {
+          "x": -20.386001586914,
+          "y": 1.0025777816772,
+          "z": 0.15399999916553
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/eecf0959-5d49-42ec-93d1-a12d29317c50",
+        "id": "8751175482179715073",
+        "name": "Finish",
+        "position": {
+          "x": -25.020809173584,
+          "y": 1.2650008201599,
+          "z": -0.023325979709625
+        },
+        "scale": {
+          "x": 3.97987,
+          "y": 2.55293,
+          "z": 5.94882
+        },
+        "size": {
+          "x": 3.9798746109009,
+          "y": 2.5529296398163,
+          "z": 5.948823928833
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/f4e23865-596d-4185-bc6f-dd7c555469af",
+        "id": "8751179452514795521",
+        "name": "respawn",
+        "position": {
+          "x": -10.407564163208,
+          "y": -2.476044178009,
+          "z": -1.2954149246216
+        },
+        "scale": {
+          "x": 33.7958,
+          "y": 2.48182,
+          "z": 18.1745
+        },
+        "size": {
+          "x": 33.795761108398,
+          "y": 2.4818217754364,
+          "z": 18.174461364746
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "1cccf775be10fa8f3dc42c00e0e195a3"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bee06f64-c230-4299-823f-4e38813fb55c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5b693bbb-7978-45ea-817f-a0762b86a8b5"
+              },
+              "pos": {
+                "x": 697,
+                "y": 385
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bee06f64-c230-4299-823f-4e38813fb55c"
+              },
+              "pos": {
+                "x": 989,
+                "y": 468
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RewardMechanism",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f1256287-b474-4ee2-bd6e-43844480468c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_RewardEntry"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a23a2257-46eb-4727-b6df-e50d068817c6"
+              },
+              "pos": {
+                "x": 696,
+                "y": 548
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f1256287-b474-4ee2-bd6e-43844480468c"
+              },
+              "pos": {
+                "x": 1054,
+                "y": 623
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "311adeb9-72be-497d-bc44-0f924c00d747"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "5b693bbb-7978-45ea-817f-a0762b86a8b5"
+                  },
+                  {
+                    "action": "a23a2257-46eb-4727-b6df-e50d068817c6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6807c06c-9346-4686-a31c-584b2a5710e6"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "f356a1f9fe810cfb6b9b0c2183030e4a"
+    },
+    "VERSION": "0.22"
+  }
+}
